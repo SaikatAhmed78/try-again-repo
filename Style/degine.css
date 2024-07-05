@@ -30,6 +30,7 @@ h1{
     margin: 30px auto;
     /* clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 81% 90%, 65% 100%, 35% 100%, 0% 75%); */
     clip-path: polygon(100% 0, 99% 73%, 60% 100%, 0 100%, 0 0);
+    
 }
 
 .btn{
@@ -49,3 +50,8 @@ text-align: center;
 margin: 20px 0;
 padding: 100px;
 }
+.btn:hover{
+  background-color: blue;
+  transition-duration: 0s;
+}
+
